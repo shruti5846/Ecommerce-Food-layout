@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food layout</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Norican&family=Nunito:wght@300;400&family=Roboto:wght@400;500&family=Unbounded:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<header>
+<div id="headertop">
+<div class="container-fluid">
+<div class="d-flex justify-content-between align-items-center">
+<div class="logo">
+               <a href="javascript:void(0);"><img src="images/logo.svg" alt="logo"></a>		   
+</div>
+	
+	<ul class="d-flex gap-2">
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-compare.svg"></span><span class="no">3</span><span>Compare</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-heart.svg"></span><span  class="no">6</span><span>Wishlist</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-cart.svg"></span><span  class="no">2</span><span>Cart</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-user.svg"></span>Account</span></a></li>
+	</ul>
+	
+	
+</div>
+</div>
+</div>
+<div id="headerbottom">
+<div class="container-fluid">
+<div class="d-flex justify-content-between border mt-4 p-3 align-items-center">
+<div class="category">
+<a class="grid" href="javascript:void(0);"><i class="fa-solid fa-border-all"></i> Browse all categories</a>
+</div>
+
+
+<ul class="d-flex gap-5 align-items-center">
+<li><a href="javascript:void(0);"><img src="images/icon-hot.svg">Deals</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="javascript:void(0);">Shop</a></li>
+<li><a href="page_not_found.html">Vendors</a></li>
+<li><a href="page_not_found.html">Mega menu</a></li>
+<li><a href="page_not_found.html">Blog</a></li>
+<li><a href="page_not_found.html">Pages</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<section id="profile">
+  <div class="container">
+  
+    <div class="row">
+      <div class="col-4">
+    
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-Dashboard-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Dashboard" type="button" role="tab" aria-controls="v-pills-Dashboard" aria-selected="true"><i class="fa-solid fa-sliders"></i>Dashboard</button>
+    <button class="nav-link" id="v-pills-Orders-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Orders" type="button" role="tab" aria-controls="v-pills-Orders" aria-selected="false"><i class="fa-solid fa-bag-shopping"></i>Orders</button>
+    <button class="nav-link" id="v-pills-Track-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Track" type="button" role="tab" aria-controls="v-pills-Track" aria-selected="false"><i class="fa-solid fa-cart-shopping"></i>Track</button>
+    <button class="nav-link" id="v-pills-Address-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Address" type="button" role="tab" aria-controls="v-pills-Address" aria-selected="false"><i class="fa-solid fa-location-dot"></i>Address</button>
+    <button class="nav-link" id="v-pills-Account-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Account" type="button" role="tab" aria-controls="v-pills-Account" aria-selected="false"><i class="fa-solid fa-user"></i>Account</button>
+	<button class="nav-link" id="v-pills-Logout-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Logout" type="button" role="tab" aria-controls="v-pills-Logout" aria-selected="false"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</button>
+  </div>
+  </div>
+  <div class="col-8">
+   <div class="tab-content" id="v-pills-tabContent">
+  <div class="tab-pane fade show active" id="v-pills-Dashboard" role="tabpanel" aria-labelledby="v-pills-Dashboard-tab" tabindex="0"><h3 class="mt-4">Hello Rosie!</h3><p class="mt-3">From your account dashboard. you can easily check & view your<a href="javascript:void(
+0);">  recent orders</a>,
+manage your <a href="javascript:void(
+0);">  shipping and billing addresses</a> and <a href="javascript:void(
+0);">  edit your password and account details.</a></div>
+
+<div class="tab-pane fade" id="v-pills-Orders" role="tabpanel" aria-labelledby="v-pills-Orders-tab" tabindex="0"><h3>Your Orders</h3>
+ <table class="table border">
+  <thead>
+    <tr>
+      <th scope="col">Order</th>
+      <th scope="col">Date</th>
+      <th scope="col">Status</th>
+      <th scope="col">Total</th>
+	  <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1357</td>
+      <td>March 45,2020</td>
+      <td>Processing</td>
+      <td>	$125.00 for 2 item</td>
+	  <td><a href="javascript:void(
+0);">View</td>
+    </tr>
+    <tr>
+      <td>#2468</td>
+      <td>June 29,2020</td>
+      <td>Completed</td>
+      <td>	$125.00 for 2 item</td>
+	  <td><a href="javascript:void(
+0);">View</td>
+    </tr>
+	 <tr>
+      <td>#2366</td>
+      <td>August 02,2020</td>
+      <td>Completed</td>
+      <td>$125.00 for 2 item</td>
+	  <td><a href="javascript:void(
+0);">View</td>
+    </tr>
+  </tbody>
+</table></div>
+
+
+<div class="tab-pane fade" id="v-pills-Track" role="tabpanel" aria-labelledby="v-pills-Track-tab" tabindex="0">
+  <h3 class="mt-4">Orders tracking</h3>
+  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure recusandae, provident eos aliquid dignissimos.</p>
+ 
+  <div class="form-floating mb-4">
+    
+    <input type="email" class="form-control" id="floatingInput" placeholder="Found in your order confirmation email">
+    <label for="floatingInput">Order ID</label>
+  </div>
+  <div class="form-floating mb-3">
+    
+    
+    <input type="email" class="form-control" id="floatingInput" placeholder="Email you used before checkout">
+    <label for="floatingInput">Email address</label>
+  </div>
+  
+
+
+<button type="button" class="btn btn-lg track">Track</button>
+</div>
+
+
+<div class="tab-pane fade" id="v-pills-Address" role="tabpanel" aria-labelledby="v-pills-Address-tab" tabindex="0">
+  <div class="row">
+    <div class="col-6 mt-3">
+      <h3>Billing Address</h3>
+  <p class="mt-4">3522 Interstate<br>
+  75 Business spur,<br>sault ste<br>Marie,MI 49783<br>New York<br>
+<a href="javascript:void(0);">Edit</a></p>
+
+</div>
+
+  <div class="col-6 mt-3">
+    <h4>Shipping Address</h4>
+      <p class="mt-4">3522 Interstate<br>
+      75 Business spur,<br>sault ste<br>Marie,MI 49783<br>New York<br>
+    <a href="javascript:void(0);">Edit</a></p>
+    </div>
+    </div>
+    </div>
+
+    
+<div class="tab-pane fade" id="v-pills-Account" role="tabpanel" aria-labelledby="v-pills-Account-tab" tabindex="0"><h4>Account Details</h4>
+  <h6 class="mt-4">Already have an account <a href="jaascript:void(0);">Log in instead!</a></h6>
+  <div class="row">
+    <div class="col-6">
+  <div class="form-floating mb-4 mt-3 ">
+    
+    <input type="name" class="form-control" id="floatingInput" placeholder="First name">
+    <label for="floatingInput">First name</label>
+  </div>
+  </div>
+  <div class="col-6">
+  <div class="form-floating mb-4 mt-3">
+    
+    <input type="name" class="form-control" id="floatingInput" placeholder="lasst name">
+    <label for="floatingInput">Last name</label>
+  </div>
+  </div>
+  </div>
+     
+  <div class="form-floating mb-4">
+    
+    <input type="name" class="form-control" id="floatingInput" placeholder="Display name">
+    <label for="floatingInput">Display name</label>
+  </div>
+
+  <div class="form-floating mb-4">
+    
+    <input type="name" class="form-control" id="floatingInput" placeholder="Email Address">
+    <label for="floatingInput">Email Address</label>
+  </div>
+
+  <div class="form-floating mt-4">
+    
+   
+	
+    <input id="password-field" type="password" class="form-control" name="password" value="" placeholder="password">
+                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                <label for="password-field">Current password</label>
+    </div>
+
+    <div class="form-floating mb-3 mt-4">
+    
+   
+	
+      <input id="password-field" type="password" class="form-control" name="password" value="" placeholder="password">
+                  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                  <label for="password-field">New password</label>
+      </div>
+
+      <div class="form-floating mb-3 mt-4">
+    
+   
+	
+        <input id="password-field" type="password" class="form-control" name="password" value="" placeholder="password">
+                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <label for="password-field">confirm password</label>
+        </div>
+        <button type="button" class="btn btn-lg track">Save changes</button>
+     
+  
+  </div>
+ 
+</section>
+
+
+
+<section id="onlineshoping">
+<div class="container-fluid">
+<div class="d-flex">
+<div class="cntntleft">
+<h2>Stay home & your daily needs from our shop</h2>
+<h3>start you'r daily shoping with <span>Nest Mart</span></h3>
+<form>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your email address">
+    <button type="button">subscribe</button>
+</form>
+</div>
+<div class="imgright">
+<img src="images/banner-9.png" alt="banner">
+</div>
+</div>
+</section>
+
+
+<section id="iconss">
+<div class="container-fluid">
+
+<div class="row">
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-1.svg"alt="icon"></li>
+<li>best prizes & offers<span>orders $500 or more</span></li>
+</ul>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-2.svg"alt="icon"></li>
+<li>Free delivery<span>24/7 amazing services</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-3.svg"alt="icon"></li>
+<li>Great daily deal<span>when you sign up</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-4.svg"alt="icon"></li>
+<li>Wide assortment<span>Megha discount</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-3">
+<li><img src="images/icon-5.svg"alt="icon"></li>
+<li>Esay returns<span>Within 30 days</span></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+
+<footer>
+<div class="container-fluid">
+
+<div class="row">
+<div class="col">
+<div class="ftrinr">
+ <div class="logo"><a href="javascript:void(0);"><img src="images/logo.svg" alt="logo"></a></div>
+ <p>Awesome grocery story website template</p>
+ <ul class="end">
+ <li>
+ <img src="images/icon-location.svg"alt="location"><span><b>Address:</b> <a href="javascript:void(0);">5171 W capmbell ave undefined kent, utah 53127 united states</span></a></li>
+  <li><img src="images/icon-contact.svg"alt="contact"><b>Call us:</b><a href="tel:+91-540-025-12553">(+91)-540-025-12553</a></a></li>
+  <li><img src="images/icon-email-2.svg"alt="email"><b>Email:</b><a href="email:sale@nest.com">sale@nest.com</a></li>
+  <li><img src="images/icon-clock.svg"alt="clock"><span><b>Hours:</b>10:00-18:00,mon-sat</span></a></li>
+</div>
+
+</div>
+<div class="col">
+<h3>Company</h3>
+<ul>
+
+<li> <a href="javascript:void(0);">About us</a></li>
+<li><a href="javascript:void(0);">delivery information</a></li>
+<li><a href="javascript:void(0);">Privacy policy</a></li>
+<li><a href="javascript:void(0);">Terms & conditions</a></li>
+<li><a href="javascript:void(0);">Contact us</a></li>
+<li><a href="javascript:void(0);">Support center</a></li>
+<li><a href="javascript:void(0);">Careers</a></li>
+</ul>
+</div>
+
+<div class="col">
+<h3>Account</h3>
+<ul>
+<li><a href="javascript:void(0);">Sign in</a></li>
+<li><a href="javascript:void(0);">View cart</a></li>
+<li><a href="javascript:void(0);">My wishlist</a></li>
+<li><a href="javascript:void(0);">Track my order</a></li>
+<li><a href="javascript:void(0);">Help ticket</a></li>
+<li><a href="javascript:void(0);">Shipping details</a></li>
+<li><a href="javascript:void(0);">Compare products</a></li>
+
+</ul>
+</div>
+
+<div class="col">
+<h3>Corprate</h3>
+<ul>
+<li><a href="javascript:void(0);">Become a vendor</a></li>
+<li><a href="javascript:void(0);">Affeliate program</a></li>
+<li><a href="javascript:void(0);">Farm business</a></li>
+<li><a href="javascript:void(0);">Farms careers</a></li>
+<li><a href="javascript:void(0);">Our suppliers</a></li>
+<li><a href="javascript:void(0);">Accessblity</a></li>
+<li><a href="javascript:void(0);">Promotions</a></li>
+</ul>
+</div>
+
+<div class="col">
+<h3>Popular</h3>
+<ul>
+<li><a href="javascript:void(0);">Milk & flavoured milk</a></li>
+<li><a href="javascript:void(0);">Butter & margarine</a></li>
+<li><a href="javascript:void(0);">Eggs substitutes</a></li>
+<li><a href="javascript:void(0);">Marmalades</a></li>
+<li><a href="javascript:void(0);">Sour cream & dips</a></li>
+<li><a href="javascript:void(0);">Tea & kombucha</a></li>
+<li><a href="javascript:void(0);">Cheese</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="ftrbtm">
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+&#169;2022<span class="nst">Nest-</span>HTML ecommerce Template<br> All rights reserved
+</div>
+<div class="col">
+<ul class="d-flex gap-4 justify-content-center">
+<li>
+<a class="call" href="tel:1900-666;"><img class="phone" src="images/phone-call.png" alt="call">1900-666</a>
+<span class="working">working 8:00-22:00</span></li>
+<li>
+<a class="call" href="tel:1900-666;"><img class="phone" src="images/phone-call.png" alt="call">1900-666</a>
+<span class="working">working 8:00-22:00</span></li>
+</div>
+
+<div class="col">
+<div class="d-flex justify-content-end">
+<h6>Follow us</h6>
+
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-pinterest-p"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a>
+</div>
+<p class="discount">up to 15% discount on your first subscribe</p>
+</div>
+</div>
+</footer>
+<script  type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+
+<script>$(".toggle-password").click(function() {
+
+  $(this).toggleClass("fa-eye fa-eye-slash");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});</script>
+
+</body>
+</html>

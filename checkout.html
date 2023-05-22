@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food layout</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Norican&family=Nunito:wght@300;400&family=Roboto:wght@400;500&family=Unbounded:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<header>
+<div id="headertop">
+<div class="container-fluid">
+<div class="d-flex justify-content-between align-items-center">
+<div class="logo">
+               <a href="javascript:void(0);"><img src="images/logo.svg" alt="logo"></a>		   
+</div>
+	
+	<ul class="d-flex gap-2">
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-compare.svg"></span><span class="no">3</span><span>Compare</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-heart.svg"></span><span  class="no">6</span><span>Wishlist</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-cart.svg"></span><span  class="no">2</span><span>Cart</span></a></li>
+	<li><a href="javascript:void(0);"><span class="icons"><img src="images/icon-user.svg"></span>Account</span></a></li>
+	</ul>
+	
+	
+</div>
+</div>
+</div>
+<div id="headerbottom">
+<div class="container-fluid">
+<div class="d-flex justify-content-between border mt-4 p-3 align-items-center">
+<div class="category">
+<a class="grid" href="javascript:void(0);"><i class="fa-solid fa-border-all"></i> Browse all categories</a>
+</div>
+
+
+<ul class="d-flex gap-5 align-items-center">
+<li><a href="javascript:void(0);"><img src="images/icon-hot.svg">Deals</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="page_not_found.html">Vendors</a></li>
+<li><a href="page_not_found.html">Mega menu</a></li>
+<li><a href="page_not_found.html">Blog</a></li>
+<li><a href="page_not_found.html">Pages</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="checkout">
+  <div class="container-fluid">
+    <h3 class="mt-4 ms-2">Checkout</h3>
+    <div class="row">
+      <div class="col-7">
+        <h4 class="mt-3 ms-2">Billing Details</h4>
+        <div class="row">
+          <div class="col-6">
+        <div class="form-floating mb-4 mt-3">
+          <input type="name" class="form-control" id="floatingInput" placeholder="firstname">
+          <label for="floatingInput" class="ms-3">First name</label>
+        </div>
+        </div>
+        <div class="col-6">
+          <div class="form-floating mb-4 mt-3">
+            <input type="name" class="form-control" id="floatingInput" placeholder="Last name">
+            <label for="floatingInput" class="ms-3">Last name</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="Address">
+            <label for="floatingInput" class="ms-3">Address</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="Address line2">
+            <label for="floatingInput" class="ms-3">Address line2</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <select class="form-select p-3 ms-2" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Afghanistan</option>
+            <option value="2">Aland Islands</option>
+            <option value="3">Albania</option>
+          </select>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="City/Town">
+            <label for="floatingInput" class="ms-3">City/Town</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="PostCode/ZIP">
+            <label for="floatingInput" class="ms-3">PostCode/ZIP</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="Phone">
+            <label for="floatingInput" class="ms-3">Phone</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="name" class="form-control" id="floatingInput" placeholder="Company Name">
+            <label for="floatingInput" class="ms-3">Company Name</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating mb-4">
+            <input type="Email" class="form-control" id="floatingInput" placeholder="Email Address">
+            <label for="floatingInput" class="ms-3">Email Address</label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-floating mb-3">
+          <textarea class="form-control" id="floatingInput" placeholder="message" rows="7"></textarea>
+          <label for="floatingInput" class="ms-3">Additional Information</label>
+          
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+        
+
+        <div class="form-check mt-4 ms-3">
+          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Create an account ?
+          </label>
+        </div>
+        <div class="form-check mt-2 ms-3">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Ship to different address?
+          </label>
+        </div>
+        </div>
+        <div class="col-5 mt-5">
+          <div class="your  border border-secondary-subtle p-4 border-rounded">
+            <ul class="d-flex justify-content-between mt-3 p-2 border-bottom border-secondary-subtle">
+              <li>  <h4>Your order</h4></li>
+              <li>  <h5 class="text-secondary">Subtotal</h5></li>
+            </ul>
+            <table class="table border">
+              <tbody>
+                <tr>
+                <td><img class="border border secondary rounded mb-2" src="images/product-1-1.jpg" alt="product"></td>
+                <td><a href="javascript:void(0);"><h6 class= "text-secondary mt-3">seeds of change organic quinoa brown,& red rice</h6></a>
+                <ul class="d-flex star">
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><span>(4.0)</span></li>
+                </ul></td>
+                <td><h6 class="text-secondary mt-3">x1</h6></td>
+                 <td><h5 class="text-success mt-3">$2.51</h5></td>
+                 
+                 </tr>
+                 
+                 
+                 <tr>
+                <td><img class="border border secondary rounded mb-2 mt-2 " src="images/product-2-1.jpg" alt="product"></td>
+                <td><a href="javascript:void(0);"><h6 class= "text-secondary mt-3">seeds of change organic quinoa brown,& red rice</h6></a>
+                <ul class="d-flex star">
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><span>(4.0)</span></li>
+                </ul></td>
+                <td><h6 class="text-secondary mt-3">x1</h6></td>
+                <td><h5 class="text-success mt-3">$3.2</h5></td>
+                
+                 </tr>
+                 
+                 
+                 <tr>
+                <td><img class="border border secondary rounded mb-2 mt-2" src="images/product-3-1.jpg" alt="product"></td>
+                <td><a href="javascript:void(0);"><h6 class= "text-secondary mt-3">seeds of change organic quinoa brown,& red rice</h6></a>
+                <ul class="d-flex star">
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><img src="images/star.png"></li>
+                <li><span>(4.0)</span></li>
+                </ul></td>
+                <td><h6 class="text-secondary mt-3">x1</h6></td>
+                <td><h5 class="text-success mt-3">$2.43</h5></td>
+                
+                 </tr>
+                 </tbody>
+            </table>
+          
+          </div>
+       
+		
+		<div class="payment mt-4">
+		<h4>Payment</h4>
+		 <div class="form-check mt-4">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+   Direct Bank Transfer
+  </label>
+</div>
+<div class="form-check mt-2">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+   Cash On Delivery
+  </label>
+</div>
+<div class="form-check mt-2">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+  Online Gateway
+  </label>
+</div>
+<img src="images/payment-method.png" class="mt-3 w-10%">
+<button type="button" class="btn  mt-3">Place an order<i class="fa-solid fa-arrow-right-from-bracket ms-2"></i></button>
+</div>
+      </div>
+	  </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="onlineshoping">
+<div class="container-fluid">
+<div class="d-flex">
+<div class="cntntleft">
+<h2>Stay home & your daily needs from our shop</h2>
+<h3>start you'r daily shoping with <span>Nest Mart</span></h3>
+<form>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your email address">
+    <button type="button">subscribe</button>
+</form>
+</div>
+<div class="imgright">
+<img src="images/banner-9.png" alt="banner">
+</div>
+</div>
+</section>
+
+
+<section id="iconss">
+<div class="container-fluid">
+
+<div class="row">
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-1.svg"alt="icon"></li>
+<li>best prizes & offers<span>orders $500 or more</span></li>
+</ul>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-2.svg"alt="icon"></li>
+<li>Free delivery<span>24/7 amazing services</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-3.svg"alt="icon"></li>
+<li>Great daily deal<span>when you sign up</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-4">
+<li><img src="images/icon-4.svg"alt="icon"></li>
+<li>Wide assortment<span>Megha discount</span></li>
+</div>
+</div>
+<div class="col">
+<div class="iconsinr">
+<ul class="d-flex gap-3">
+<li><img src="images/icon-5.svg"alt="icon"></li>
+<li>Esay returns<span>Within 30 days</span></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+
+<footer>
+<div class="container-fluid">
+
+<div class="row">
+<div class="col">
+<div class="ftrinr">
+ <div class="logo"><a href="javascript:void(0);"><img src="images/logo.svg" alt="logo"></a></div>
+ <p>Awesome grocery story website template</p>
+ <ul class="end">
+ <li>
+ <img src="images/icon-location.svg"alt="location"><span><b>Address:</b> <a href="javascript:void(0);">5171 W capmbell ave undefined kent, utah 53127 united states</span></a></li>
+  <li><img src="images/icon-contact.svg"alt="contact"><b>Call us:</b><a href="tel:+91-540-025-12553">(+91)-540-025-12553</a></a></li>
+  <li><img src="images/icon-email-2.svg"alt="email"><b>Email:</b><a href="email:sale@nest.com">sale@nest.com</a></li>
+  <li><img src="images/icon-clock.svg"alt="clock"><span><b>Hours:</b>10:00-18:00,mon-sat</span></a></li>
+</div>
+
+</div>
+<div class="col">
+<h3>Company</h3>
+<ul>
+
+<li> <a href="javascript:void(0);">About us</a></li>
+<li><a href="javascript:void(0);">delivery information</a></li>
+<li><a href="javascript:void(0);">Privacy policy</a></li>
+<li><a href="javascript:void(0);">Terms & conditions</a></li>
+<li><a href="javascript:void(0);">Contact us</a></li>
+<li><a href="javascript:void(0);">Support center</a></li>
+<li><a href="javascript:void(0);">Careers</a></li>
+</ul>
+</div>
+
+<div class="col">
+<h3>Account</h3>
+<ul>
+<li><a href="javascript:void(0);">Sign in</a></li>
+<li><a href="javascript:void(0);">View cart</a></li>
+<li><a href="javascript:void(0);">My wishlist</a></li>
+<li><a href="javascript:void(0);">Track my order</a></li>
+<li><a href="javascript:void(0);">Help ticket</a></li>
+<li><a href="javascript:void(0);">Shipping details</a></li>
+<li><a href="javascript:void(0);">Compare products</a></li>
+
+</ul>
+</div>
+
+<div class="col">
+<h3>Corprate</h3>
+<ul>
+<li><a href="javascript:void(0);">Become a vendor</a></li>
+<li><a href="javascript:void(0);">Affeliate program</a></li>
+<li><a href="javascript:void(0);">Farm business</a></li>
+<li><a href="javascript:void(0);">Farms careers</a></li>
+<li><a href="javascript:void(0);">Our suppliers</a></li>
+<li><a href="javascript:void(0);">Accessblity</a></li>
+<li><a href="javascript:void(0);">Promotions</a></li>
+</ul>
+</div>
+
+<div class="col">
+<h3>Popular</h3>
+<ul>
+<li><a href="javascript:void(0);">Milk & flavoured milk</a></li>
+<li><a href="javascript:void(0);">Butter & margarine</a></li>
+<li><a href="javascript:void(0);">Eggs substitutes</a></li>
+<li><a href="javascript:void(0);">Marmalades</a></li>
+<li><a href="javascript:void(0);">Sour cream & dips</a></li>
+<li><a href="javascript:void(0);">Tea & kombucha</a></li>
+<li><a href="javascript:void(0);">Cheese</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="ftrbtm">
+<div class="container-fluid">
+<div class="row">
+<div class="col">
+&#169;2022<span class="nst">Nest-</span>HTML ecommerce Template<br> All rights reserved
+</div>
+<div class="col">
+<ul class="d-flex gap-4 justify-content-center">
+<li>
+<a class="call" href="tel:1900-666;"><img class="phone" src="images/phone-call.png" alt="call">1900-666</a>
+<span class="working">working 8:00-22:00</span></li>
+<li>
+<a class="call" href="tel:1900-666;"><img class="phone" src="images/phone-call.png" alt="call">1900-666</a>
+<span class="working">working 8:00-22:00</span></li>
+</div>
+
+<div class="col">
+<div class="d-flex justify-content-end">
+<h6>Follow us</h6>
+
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-pinterest-p"></i></a>
+<a class="icn" href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a>
+</div>
+<p class="discount">up to 15% discount on your first subscribe</p>
+</div>
+</div>
+</footer>
+<script  type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script>function format(item, state) {
+  if (!item.id) {
+    return item.text;
+  }
+  var countryUrl = "https://hatscripts.github.io/circle-flags/flags/";
+  var stateUrl = "https://oxguy3.github.io/flags/svg/us/";
+  var url = state ? stateUrl : countryUrl;
+  var img = $("<img>", {
+    class: "img-flag",
+    width: 26,
+    src: url + item.element.value.toLowerCase() + ".svg"
+  });
+  var span = $("<span>", {
+    text: " " + item.text
+  });
+  span.prepend(img);
+  return span;
+}
+
+$(document).ready(function() {
+  $("#countries").select2({
+    templateResult: function(item) {
+      return format(item, false);
+    }
+  });
+  $("#us-states").select2({
+    templateResult: function(item) {
+      return format(item, true);
+    }
+  });
+});
+</script>
+
+
+</body>
+</html>
